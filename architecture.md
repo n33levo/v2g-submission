@@ -2,7 +2,7 @@
 
 ```mermaid
 graph TD
-    A[Variant Input<br/>(variant_id, gene_symbol)] --> B[Strategy Planner]
+    A["Variant Input<br/>variant_id, gene_symbol"] --> B[Strategy Planner]
     B --> C{Context Detected?}
     C -->|Cardiac/HCM| D[Cardiac-focused Strategy]
     C -->|Other/Unknown| E[Comprehensive Strategy]
@@ -10,16 +10,16 @@ graph TD
     D --> F[Tool Orchestrator]
     E --> F
 
-    F --> G[GTEx Tool<br/>(eQTL evidence)]
-    F --> H[gnomAD Tool<br/>(population constraint)]
-    F --> I[UniProt Tool<br/>(protein function)]
+    F --> G["GTEx Tool<br/>eQTL evidence"]
+    F --> H["gnomAD Tool<br/>population constraint"]
+    F --> I["UniProt Tool<br/>protein function"]
 
     G --> J[Evidence Aggregator]
     H --> J
     I --> J
 
-    J --> K[Confidence Scoring<br/>(diversity, strength, coverage)]
-    K --> L[Self-Verification<br/>(consistency, warnings)]
+    J --> K["Confidence Scoring<br/>diversity, strength, coverage"]
+    K --> L["Self-Verification<br/>consistency, warnings"]
     L --> M{Quality Gate}
 
     M -->|Pass| N[LLM Summary Generator]
