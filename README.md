@@ -1,6 +1,6 @@
 # V2G Technical Assessment Implementation
 
-This repository contains my submission for the **Agentic Variant-to-Gene (V2G) Framework Internship** technical assessment. The work is organized along the three required parts and focuses on reasoning clarity, AI/ML thinking, and reproducible execution.
+This repository contains my submission for the **Agentic Variant-to-Gene (V2G) Framework Research Internship** technical assessment. The work is organized along the three required parts and focuses on reasoning clarity, AI/ML thinking, and reproducible execution.
 
 ---
 

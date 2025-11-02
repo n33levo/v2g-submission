@@ -1,0 +1,74 @@
+{
+  "total_variants": 30,
+  "chromosomes_represented": 13,
+  "variants_per_chromosome": {
+    "1": 2,
+    "10": 5,
+    "11": 3,
+    "12": 2,
+    "13": 1,
+    "18": 1,
+    "2": 2,
+    "21": 1,
+    "22": 1,
+    "3": 4,
+    "4": 3,
+    "5": 3,
+    "7": 2
+  },
+  "total_genes_identified": 30,
+  "top_10_genes_by_variant_count": [
+    {
+      "gene": "LRMDA",
+      "variant_count": 1
+    },
+    {
+      "gene": "ENSG00000305991",
+      "variant_count": 1
+    },
+    {
+      "gene": "PLXDC2",
+      "variant_count": 1
+    },
+    {
+      "gene": "PGBD5",
+      "variant_count": 1
+    },
+    {
+      "gene": "DSCAM",
+      "variant_count": 1
+    },
+    {
+      "gene": "NELL1",
+      "variant_count": 1
+    },
+    {
+      "gene": "PRMT3",
+      "variant_count": 1
+    },
+    {
+      "gene": "SUCLG2-DT",
+      "variant_count": 1
+    },
+    {
+      "gene": "RPL13AP25",
+      "variant_count": 1
+    },
+    {
+      "gene": "ENSG00000309251",
+      "variant_count": 1
+    }
+  ],
+  "annotation_stats": {
+    "successfully_annotated": 30,
+    "unannotated": 0,
+    "with_clinical_significance": 0,
+    "with_maf_data": 0
+  },
+  "clinical_significance_distribution": {},
+  "maf_statistics": {
+    "mean": null,
+    "min": null,
+    "max": null
+  }
+}
